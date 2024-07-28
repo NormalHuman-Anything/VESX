@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2024-07-24_06-31-23")(type "KiCad")(uri "${KIPRJMOD}/2024-07-24_06-31-23.kicad_sym")(options "")(descr ""))
+  (lib (name "CCC_ESC_Custom_Symbols")(type "KiCad")(uri "${KIPRJMOD}/CCC_ESC_Custom_Symbols.kicad_sym")(options "")(descr ""))
+)

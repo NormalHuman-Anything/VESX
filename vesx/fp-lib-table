@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "cccesdc")(type "KiCad")(uri "${KIPRJMOD}/CCC_ESC_Custom_parts.pretty")(options "")(descr ""))
+  (lib (name "vvvv")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr ""))
+  (lib (name "usb")(type "KiCad")(uri "E:/F405_pill-main/F405_pill_V1.11/graphics.pretty")(options "")(descr ""))
+  (lib (name "CCC_ESC_Custom_parts")(type "KiCad")(uri "${KIPRJMOD}/CCC_ESC_Custom_parts.pretty")(options "")(descr ""))
+  (lib (name "vesc")(type "KiCad")(uri "C:/Users/user/Downloads")(options "")(descr ""))
+)
