@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.45,
-          "width": 0.6
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -480,6 +480,10 @@
       {
         "netclass": "Default",
         "pattern": "PB11"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CURRENT_B"
       }
     ]
   },
