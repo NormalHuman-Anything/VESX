@@ -3417,6 +3417,12 @@
 		(uuid "0dc55cf9-3432-4560-a714-d4a4750f0995")
 	)
 	(junction
+		(at 162.56 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "153c7b72-b5e3-4a5e-a21e-42bb4bb2d867")
+	)
+	(junction
 		(at 146.05 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3427,12 +3433,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d666238-1070-4e16-b734-5c51b28cf4ba")
-	)
-	(junction
-		(at 152.4 20.32)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "250abf38-4d19-41a0-9bf2-ae31245ff808")
 	)
 	(junction
 		(at 143.51 49.53)
@@ -3447,6 +3447,12 @@
 		(uuid "3929785a-739a-4d0b-a188-6ca44da7b839")
 	)
 	(junction
+		(at 162.56 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c1c29fd-8a1d-4adb-b689-f2061e214854")
+	)
+	(junction
 		(at 248.92 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3457,12 +3463,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4beee541-1799-483e-aeb8-3314faa2c6ff")
-	)
-	(junction
-		(at 161.29 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4df85511-0ddc-4b45-a7c4-b1447b1cfe8d")
 	)
 	(junction
 		(at 83.82 67.31)
@@ -3493,12 +3493,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82756a9f-7d8b-4bbe-b6db-29fe1ddb17c9")
-	)
-	(junction
-		(at 161.29 20.32)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "84fffc9f-7149-43d8-8da9-91e62408c2db")
 	)
 	(junction
 		(at 148.59 143.51)
@@ -3537,12 +3531,6 @@
 		(uuid "ad8abd7d-7378-47ca-95c4-ce262166c166")
 	)
 	(junction
-		(at 170.18 20.32)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "ae8e486f-e0d0-4546-b643-12a90738da08")
-	)
-	(junction
 		(at 96.52 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3561,16 +3549,22 @@
 		(uuid "ba0b8cf3-c1e3-4512-a106-c605200fec06")
 	)
 	(junction
-		(at 170.18 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6bb6536-b915-4420-a255-2f7466767484")
-	)
-	(junction
 		(at 104.14 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3d3785d-36f3-40e6-9718-f8b712c7bbc1")
+	)
+	(junction
+		(at 173.99 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f381e71b-b447-4fb9-806c-073f66dc811d")
+	)
+	(junction
+		(at 173.99 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb9e3589-e650-437e-95db-a27ab738d00c")
 	)
 	(no_connect
 		(at 130.81 110.49)
@@ -3797,7 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 20.32) (xy 152.4 20.32)
+			(xy 143.51 20.32) (xy 162.56 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3931,6 +3925,17 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 20.32) (xy 179.07 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1aa01acc-ff79-4cf0-be39-805c15fc1e3a")
+	)
+	(wire
+		(pts
 			(xy 166.37 54.61) (xy 176.53 54.61)
 		)
 		(stroke
@@ -4033,7 +4038,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 25.4) (xy 161.29 25.4)
+			(xy 152.4 25.4) (xy 162.56 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4593,17 +4598,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 25.4) (xy 170.18 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "80fb4a78-f618-4fb3-860e-0683ecb10ab6")
-	)
-	(wire
-		(pts
 			(xy 92.71 80.01) (xy 90.17 80.01)
 		)
 		(stroke
@@ -4746,28 +4740,6 @@
 		)
 		(uuid "a010abc6-9f8a-4270-98a4-529ea26b0039")
 	)
-	(wire
-		(pts
-			(xy 170.18 25.4) (xy 179.07 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "a0226358-1727-44fb-8bda-e91f652e47c5")
-	)
-	(wire
-		(pts
-			(xy 152.4 20.32) (xy 161.29 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "a0fe7158-cce4-495d-91df-4d92d6ac1c22")
-	)
 	(bus
 		(pts
 			(xy 194.31 57.15) (xy 195.58 55.88)
@@ -4819,6 +4791,17 @@
 			(type default)
 		)
 		(uuid "aa881fee-5f9f-4ea3-8b64-ea902000126d")
+	)
+	(wire
+		(pts
+			(xy 162.56 20.32) (xy 173.99 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "abd606d9-8e56-42af-af85-56be6e6699de")
 	)
 	(wire
 		(pts
@@ -4902,6 +4885,17 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 25.4) (xy 173.99 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b364ad08-53bc-4eeb-94ea-3387a0d01102")
+	)
+	(wire
+		(pts
 			(xy 120.65 77.47) (xy 130.81 77.47)
 		)
 		(stroke
@@ -4941,6 +4935,17 @@
 			(type default)
 		)
 		(uuid "bdf53348-8fb3-40e7-9b08-679c62ce4192")
+	)
+	(wire
+		(pts
+			(xy 173.99 25.4) (xy 179.07 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "be56f08a-2bf3-4c29-bb54-a93351d2ad7d")
 	)
 	(wire
 		(pts
@@ -5034,17 +5039,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 20.32) (xy 170.18 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "d452c682-3ae0-41eb-9448-c679234c9dde")
-	)
-	(wire
-		(pts
 			(xy 166.37 64.77) (xy 191.77 64.77)
 		)
 		(stroke
@@ -5082,17 +5076,6 @@
 			(type default)
 		)
 		(uuid "d9f68b7c-77a7-47c7-8fb7-efcf1eb91fa5")
-	)
-	(wire
-		(pts
-			(xy 170.18 20.32) (xy 179.07 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "daab5a56-5b00-418a-8ba8-c3d811f2b9e5")
 	)
 	(wire
 		(pts
@@ -7064,7 +7047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -7091,7 +7074,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C269687"
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -7302,7 +7285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 110.49 0)
 			(effects
 				(font
@@ -7329,7 +7312,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C269687"
 			(at 101.6 110.49 0)
 			(effects
 				(font
@@ -7632,85 +7615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 152.4 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35e6a6e4-bc35-4a66-b790-945f30e8ec4e")
-		(property "Reference" "C3"
-			(at 154.94 21.5962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 154.94 24.1362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.4 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 152.4 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23733"
-			(at 152.4 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dbf7d8c5-8529-49a6-a16f-34746f32459f")
-		)
-		(pin "1"
-			(uuid "c4ad6d28-a0ee-4744-a37c-d6a036cafc1b")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea/d6df071b-4b86-4bd8-a8c8-2e026a056d91"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 271.78 128.27 180)
 		(unit 1)
@@ -7847,6 +7751,84 @@
 			(project "vesx"
 				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea/d6df071b-4b86-4bd8-a8c8-2e026a056d91"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 162.56 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "453bd90f-3ff0-4c18-b115-753f505d11be")
+		(property "Reference" "C4"
+			(at 165.608 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 165.608 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1952781"
+			(at 162.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e58c60d-8902-4449-b9f4-d407aa282498")
+		)
+		(pin "2"
+			(uuid "c15fe0ab-607b-4384-9ade-7cf71b7a1070")
+		)
+		(instances
+			(project "vesx"
+				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea/d6df071b-4b86-4bd8-a8c8-2e026a056d91"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8104,7 +8086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.82 110.49 0)
 			(effects
 				(font
@@ -8131,7 +8113,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C269687"
 			(at 83.82 110.49 0)
 			(effects
 				(font
@@ -8313,7 +8295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -8340,7 +8322,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC" "C519482"
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -10222,6 +10204,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 173.99 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a97d763d-552f-4924-a4e8-a639d1c23954")
+		(property "Reference" "C7"
+			(at 177.038 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 177.038 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 173.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 173.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1952781"
+			(at 173.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92da2903-b5b5-46a1-96d3-b8e0c1a35d71")
+		)
+		(pin "2"
+			(uuid "5a0332bc-20ca-4797-9630-e76d961d947e")
+		)
+		(instances
+			(project "vesx"
+				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea/d6df071b-4b86-4bd8-a8c8-2e026a056d91"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 88.9 134.62 90)
 		(unit 1)
@@ -10283,85 +10343,6 @@
 			(project "vesx"
 				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea/d6df071b-4b86-4bd8-a8c8-2e026a056d91"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 161.29 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab2d5da1-78d8-46a9-8ad2-d9dcf9e251b6")
-		(property "Reference" "C4"
-			(at 163.83 21.5962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 163.83 24.1362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 161.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 161.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 161.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4deeaef5-b679-4d81-a6b7-90b5c6ef6cdf")
-		)
-		(pin "1"
-			(uuid "e62d9928-cab3-4c5e-96b6-a4c4d4f6b3bc")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea/d6df071b-4b86-4bd8-a8c8-2e026a056d91"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11042,85 +11023,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 170.18 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db522fec-af72-4597-98d5-d1077bfb4034")
-		(property "Reference" "C7"
-			(at 172.72 21.5962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 172.72 24.1362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 170.18 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 170.18 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 170.18 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01dff3c3-880c-4283-9626-a751b56feefa")
-		)
-		(pin "1"
-			(uuid "174edc22-8d4f-4010-b827-e44535fded80")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea/d6df071b-4b86-4bd8-a8c8-2e026a056d91"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 232.41 111.76 180)
 		(unit 1)
@@ -11628,7 +11530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 76.2 0)
 			(effects
 				(font
@@ -11655,7 +11557,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC" "C519482"
 			(at 93.98 76.2 0)
 			(effects
 				(font

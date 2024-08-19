@@ -8639,93 +8639,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 314.96 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05f03fa9-2a32-4559-bac7-20ec333c8768")
-		(property "Reference" "CX21"
-			(at 316.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470nF"
-			(at 316.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 315.9252 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 314.96 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR PT" "FM32X474K251EGG"
-			(at 314.96 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C192761"
-			(at 314.96 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9d2cfb4-c85f-48af-95e5-a34a62237f22")
-		)
-		(pin "2"
-			(uuid "9b8c94b2-b136-4cc3-9bc4-9f60e20697d1")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
-					(reference "CX21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 181.61 241.3 0)
 		(unit 1)
@@ -8753,7 +8666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.61 241.3 0)
 			(effects
 				(font
@@ -9141,7 +9054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.64 228.6 0)
 			(effects
 				(font
@@ -9168,7 +9081,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C385029"
+		(property "LCSC" "C113804"
 			(at 167.64 228.6 0)
 			(effects
 				(font
@@ -9340,172 +9253,6 @@
 			(project "vesx"
 				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 270.51 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b277b9d-47a0-42a8-b618-9288b956bca8")
-		(property "Reference" "CX16"
-			(at 271.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470nF"
-			(at 271.78 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 271.4752 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR PT" "FM32X474K251EGG"
-			(at 270.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C192761"
-			(at 270.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11cfe9f9-17af-4233-b826-429919df29aa")
-		)
-		(pin "2"
-			(uuid "647273c6-44cf-4688-9dd2-cf6598a69c8d")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
-					(reference "CX16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 232.41 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1be2895c-7d85-49e8-b788-504f27d23dca")
-		(property "Reference" "C52"
-			(at 234.95 237.4962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 234.95 240.0362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 232.41 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 232.41 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23733"
-			(at 232.41 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5b098a0-df04-4386-8a7d-ea73f6b0c7e4")
-		)
-		(pin "1"
-			(uuid "eda1152c-ed4d-43d0-b388-1f0336438e1d")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
-					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -10407,93 +10154,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 288.29 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3af8c175-758b-4b04-9710-4c95da5ff059")
-		(property "Reference" "CX18"
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470nF"
-			(at 289.56 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 289.2552 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 288.29 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 288.29 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR PT" "FM32X474K251EGG"
-			(at 288.29 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C192761"
-			(at 288.29 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45944352-71d9-4b47-aa13-0b3d9f116869")
-		)
-		(pin "2"
-			(uuid "9bb00c17-f0f4-4688-956d-2f99274f5732")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
-					(reference "CX18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 111.76 234.95 0)
 		(unit 1)
@@ -10803,85 +10463,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 222.25 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49d55632-8d99-4048-aad6-6b8423fdda7c")
-		(property "Reference" "C51"
-			(at 224.79 237.4962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 224.79 240.0362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 222.25 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 222.25 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23733"
-			(at 222.25 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1218b6c1-cc6a-4e6b-bf50-f57481387c94")
-		)
-		(pin "1"
-			(uuid "d3418a2f-b7c8-4283-ba32-fd7f741b7f23")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener_Filled")
 		(at 242.57 236.22 270)
 		(unit 1)
@@ -11039,93 +10620,6 @@
 			(project "vesx"
 				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 261.62 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54a0e808-90ab-4351-b4d0-911d408e46af")
-		(property "Reference" "CX15"
-			(at 262.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470nF"
-			(at 262.89 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 262.5852 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR PT" "FM32X474K251EGG"
-			(at 261.62 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C192761"
-			(at 261.62 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a402dcee-d980-493f-a723-28507def40c8")
-		)
-		(pin "2"
-			(uuid "f8570020-c50c-4e20-bcfe-3e1384b37ee3")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
-					(reference "CX15")
 					(unit 1)
 				)
 			)
@@ -11532,6 +11026,85 @@
 			(project ""
 				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64d2acf5-b5e6-4663-a8bb-2e437867e19c")
+		(property "Reference" "C28"
+			(at 234.95 237.4962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 234.95 240.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 232.41 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 232.41 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C237615"
+			(at 232.41 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "336eb46f-8fe2-40ed-b220-bb95eecf5e0a")
+		)
+		(pin "1"
+			(uuid "0942d7ac-401b-4464-adb9-7ff93b708c81")
+		)
+		(instances
+			(project "vesx"
+				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -12283,93 +11856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 297.18 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f713fd7-9206-49aa-886d-6586952647fd")
-		(property "Reference" "CX19"
-			(at 298.45 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470nF"
-			(at 298.45 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 298.1452 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 297.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR PT" "FM32X474K251EGG"
-			(at 297.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C192761"
-			(at 297.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81b3912a-4ce3-4c37-aab8-3d0e0e1a9512")
-		)
-		(pin "2"
-			(uuid "73e718af-eb5b-4107-ab7f-21aeb63b055f")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
-					(reference "CX19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 365.76 226.06 90)
 		(unit 1)
@@ -12849,7 +12335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 238.76 0)
 			(effects
 				(font
@@ -12876,7 +12362,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23733"
+		(property "LCSC" "C237615"
 			(at 213.36 238.76 0)
 			(effects
 				(font
@@ -13056,93 +12542,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 279.4 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a480f4e8-50de-4b1d-8dfe-9cd556841fd7")
-		(property "Reference" "CX17"
-			(at 280.67 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470nF"
-			(at 280.67 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 280.3652 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 279.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 279.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR PT" "FM32X474K251EGG"
-			(at 279.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C192761"
-			(at 279.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e39cf6e-887a-4298-96fb-86623e8c9c44")
-		)
-		(pin "2"
-			(uuid "a61bd739-8d41-4d81-88c4-61c96361cf5a")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
-					(reference "CX17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 69.85 220.98 0)
 		(unit 1)
@@ -13203,6 +12602,85 @@
 			(project "vesx"
 				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 222.25 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a850686c-f567-4a5f-97ed-e197430cfba4")
+		(property "Reference" "C3"
+			(at 224.79 237.4962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 224.79 240.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 222.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 222.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C237615"
+			(at 222.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3815d60-dafc-45c0-a54c-3d185eeb639f")
+		)
+		(pin "1"
+			(uuid "df431feb-6928-40d7-9a2d-91faf3bf360e")
+		)
+		(instances
+			(project "vesx"
+				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -13629,7 +13107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.61 233.68 0)
 			(effects
 				(font
@@ -13656,7 +13134,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3015903"
+		(property "LCSC" "C269687"
 			(at 181.61 233.68 0)
 			(effects
 				(font
@@ -13817,93 +13295,6 @@
 			(project "vesx"
 				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
 					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 323.85 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca574836-bc0d-4e87-ad6b-85490d4681e9")
-		(property "Reference" "CX22"
-			(at 325.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470nF"
-			(at 325.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 324.8152 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 323.85 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 323.85 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR PT" "FM32X474K251EGG"
-			(at 323.85 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C192761"
-			(at 323.85 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "529a47fb-9ba5-422f-804f-a7004e036437")
-		)
-		(pin "2"
-			(uuid "32f9aac9-08ff-4999-86f7-4d1baa5d76d5")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
-					(reference "CX22")
 					(unit 1)
 				)
 			)
@@ -14971,93 +14362,6 @@
 			(project "vesx"
 				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
 					(reference "CX24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 306.07 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd2a572e-4be7-40d2-b3ec-e8b76447b5c7")
-		(property "Reference" "CX20"
-			(at 307.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470nF"
-			(at 307.34 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 307.0352 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 306.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 306.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR PT" "FM32X474K251EGG"
-			(at 306.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C192761"
-			(at 306.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6a7c2d2-70dd-422c-96f1-f274b1e688c9")
-		)
-		(pin "2"
-			(uuid "4b31807f-33d8-457c-8460-1cb77a7eb8c9")
-		)
-		(instances
-			(project "vesx"
-				(path "/a139e3b7-1a43-42ee-925d-966b60f57dea"
-					(reference "CX20")
 					(unit 1)
 				)
 			)

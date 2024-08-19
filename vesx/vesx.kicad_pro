@@ -492,7 +492,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -503,7 +503,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -675,7 +675,7 @@
   "sheets": [
     [
       "a139e3b7-1a43-42ee-925d-966b60f57dea",
-      "루트"
+      "Root"
     ],
     [
       "d6df071b-4b86-4bd8-a8c8-2e026a056d91",
